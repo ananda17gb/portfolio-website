@@ -6,7 +6,7 @@ import Content from "./components/content";
 
 function App() {
   return (
-    <div className="font-openSans text-[#ffffffe8]">
+    <div className="font-openSans text-[#FAF0E6]">
       <Header />
       <Content />
       {/* <Footer/> */}

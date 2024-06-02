@@ -29,7 +29,7 @@ function Skills() {
         id="skills"
         className="flex flex-col h-screen justify-center items-center text-2xl overflow-x-hidden"
       >
-        <div className="bg-[#5d6d7e] relative m-auto w-full">
+        <div className="bg-[#474E68] relative m-auto w-full">
           <h1 className="text-4xl font-medium text-center pb-40">Skills</h1>
           <Flickity
             className={"carousel"}

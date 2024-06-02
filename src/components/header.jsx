@@ -1,7 +1,7 @@
 function Header() {
   return (
     <>
-      <div className="bg-[#3B4856] h-[10vh] flex justify-between items-center px-24">
+      <div className="bg-[#404258] h-[10vh] flex justify-between items-center px-24">
         <a href="" className="text-4xl font-semibold">
           AnandaAW
         </a>

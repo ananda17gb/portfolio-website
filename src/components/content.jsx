@@ -8,17 +8,11 @@ import Achievement from "./achievement";
 function Content() {
   return (
     <>
-      <div className="flex flex-col gap-10 bg-[#5d6d7e]">
+      <div className="flex flex-col gap-10 bg-[#474E68]">
         <AboutMe />
-        {/* <Separator/> */}
         <Project /> {/* kayak album gambar */}
-        {/* <Separator/> */}
         <Skills /> {/* slider tapi bisa kanan kiri juga*/}
-        {/* <Separator/> */}
         <Achievement />
-        {/* <Separator/> */}
-        {/* <Activites/> kayak album gambar */}
-        {/* <Separator/> */}
       </div>
     </>
   );
