@@ -2,14 +2,41 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
-import { FaSoundcloud } from "react-icons/fa6";
+import { ReactTyped } from "react-typed";
 
 function AboutMe() {
   return (
     <>
-      <div id="aboutme" className="flex flex-col h-[90vh] ">
-        <div className="flex justify-between px-80 items-center h-screen">
-          <img src="" />
+      <div id="aboutme" className="flex flex-col h-screen px-32">
+        <div className="flex justify-between px-4 md:px-8 items-center flex-grow">
+          <div className="flex flex-col">
+            <h1 className="italic font-medium text-xl">
+              {" "}
+              <ReactTyped
+                strings={[
+                  `"I'm not a great programmer; I am just a decent`,
+                  `"I'm not a great programmer; I am just a good programmer with no great`,
+                  `"I'm not a great programmer; I am just a good programmer with great habits"`,
+                ]}
+                typeSpeed={200}
+                loop
+                backSpeed={80}
+                cursorChar="_"
+                showCursor={true}
+              />
+            </h1>
+            <h1 className="italic font-medium text-xl">
+              {" "}
+              <ReactTyped
+                strings={[`- Kent Back`]}
+                typeSpeed={500}
+                loop
+                backSpeed={80}
+                cursorChar="_"
+                showCursor={true}
+              />
+            </h1>
+          </div>
           <div className="flex flex-col">
             <h1 className="text-4xl font-medium">About Me</h1>
             <br />
@@ -40,8 +67,8 @@ function AboutMe() {
                 <FaInstagram size={36} />
               </a>
               {/* <a href="https://soundcloud.com/ndaaw" target="_blank">
-                <FaSoundcloud size={36}/>
-            </a> */}
+          <FaSoundcloud size={36}/>
+        </a> */}
             </div>
           </div>
         </div>
