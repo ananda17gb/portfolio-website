@@ -1,27 +1,25 @@
-import CardBig from "./cardbig";
 import { projectData } from "../data/project";
+import CardBig from "./cardbig"; // Assuming CardBig component is properly imported and named
 
 function Projects() {
   return (
-    <>
-      <div
-        id="projects"
-        className="flex flex-col h-screen justify-center items-center text-2xl"
-      >
-        <h1 className="text-4xl font-medium">Projects</h1>
-        <div className="flex flex-row flex-warp gap-10 bg-[#474E68] py-20 ">
-          {projectData.map((project, index) => (
-            <CardBig
-              key={index}
-              image={project.image}
-              name={project.name}
-              description={project.description}
-              link={project.link}
-            />
-          ))}
-        </div>
+    <section
+      id="projects"
+      className="flex flex-col items-center justify-center min-h-screen text-2xl"
+    >
+      <h1 className="text-4xl font-medium mb-8">Projects</h1>
+      <div className="flex flex-wrap justify-center gap-10 bg-[#474E68] py-20 px-4 sm:px-10 lg:px-20">
+        {projectData.map((project, index) => (
+          <CardBig
+            key={index} // Ensure a unique key is used, ideally project.id if available
+            image={project.image}
+            name={project.name}
+            description={project.description}
+            link={project.link}
+          />
+        ))}
       </div>
-    </>
+    </section>
   );
 }
 
