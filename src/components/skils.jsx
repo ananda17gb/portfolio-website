@@ -16,7 +16,6 @@ function Skills() {
     "python.png",
     "cpp.png",
     "go.png",
-    "dart.png",
     "flutter.png",
     "mysql.png",
     "office.png",

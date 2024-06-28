@@ -12,35 +12,7 @@ function AboutMe() {
         id="aboutme"
         className="flex min-h-screen px-8 md:px-16 items-center"
       >
-        <div className="flex justify-between px-4 md:px-8 items-center flex-grow">
-          {/* <div className="flex flex-col">
-            <h1 className="italic font-medium text-xl">
-              {" "}
-              <ReactTyped
-                strings={[
-                  `"I'm not a great programmer; I am just a decent`,
-                  `"I'm not a great programmer; I am just a good programmer with no great`,
-                  `"I'm not a great programmer; I am just a good programmer with great habits"`,
-                ]}
-                typeSpeed={200}
-                loop
-                backSpeed={80}
-                cursorChar="_"
-                showCursor={true}
-              />
-            </h1>
-            <h1 className="italic font-medium text-xl">
-              {" "}
-              <ReactTyped
-                strings={[`- Kent Back`]}
-                typeSpeed={500}
-                loop
-                backSpeed={80}
-                cursorChar="_"
-                showCursor={true}
-              />
-            </h1>
-          </div> */}
+        <div className="flex justify-center px-4 md:px-8 items-center flex-grow">
           <div className="flex flex-col">
             <h1 className="text-4xl font-medium">About Me</h1>
             <br />
